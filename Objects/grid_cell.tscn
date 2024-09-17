@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgbm4ay5ol8i0"]
+
+[ext_resource type="Script" path="res://Objects/grid_cell.gd" id="1_xqlbr"]
+[ext_resource type="Texture2D" uid="uid://cawlec4xbh4mp" path="res://Images/white_pixel.png" id="2_xoaup"]
+
+[node name="GridCell" type="Node2D"]
+script = ExtResource("1_xqlbr")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("2_xoaup")
+centered = false
